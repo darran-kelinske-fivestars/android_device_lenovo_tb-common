@@ -47,7 +47,7 @@ qcrild_status=false
 #case "$baseband" in
 #    "apq" | "sda" | "qcs" )
 setprop ro.vendor.radio.noril no
-#    stop ril-daemon
+start ril-daemon
 #    stop vendor.ril-daemon
 #    stop vendor.qcrild
 #    start vendor.ipacm
