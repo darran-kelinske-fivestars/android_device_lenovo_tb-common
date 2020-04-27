@@ -101,7 +101,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+    rild.libpath=/vendor/lib64/libreference-ril.so  \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.multisim.config=dsds \
     ro.telephony.call_ring.multiple=false \
