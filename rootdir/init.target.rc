@@ -373,3 +373,11 @@ service vendor.tlocd /vendor/bin/tloc_daemon
     class late_start
     user system
     group drmrpc gps net_raw
+    
+service ril-daemon /vendor/bin/hw/rild -l /vendor/lib64/libreference-ril.so
+    class main
+    user root
+    group radio vpn cache inet misc audio log readproc wakelock
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
+
+
