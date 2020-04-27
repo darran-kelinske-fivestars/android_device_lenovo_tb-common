@@ -44,14 +44,14 @@ sgltecsfb=`getprop persist.vendor.radio.sglte_csfb`
 datamode=`getprop persist.vendor.data.mode`
 qcrild_status=false
 
-case "$baseband" in
-    "apq" | "sda" | "qcs" )
-    setprop ro.vendor.radio.noril yes
-    stop ril-daemon
-    stop vendor.ril-daemon
-    stop vendor.qcrild
-    start vendor.ipacm
-esac
+#case "$baseband" in
+#    "apq" | "sda" | "qcs" )
+setprop ro.vendor.radio.noril no
+#    stop ril-daemon
+#    stop vendor.ril-daemon
+#    stop vendor.qcrild
+#    start vendor.ipacm
+#esac
 
 case "$baseband" in
     "sa8")
