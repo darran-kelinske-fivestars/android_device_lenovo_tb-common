@@ -414,3 +414,10 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/leds/green   brightness 0644 system  system
 /sys/class/leds/red     blink      0644 system  system
 /sys/class/leds/red     brightness 0644 system  system
+
+#quectel port
+/dev/ttyUSB1 0660 radio radio
+/dev/ttyUSB2 0660 radio radio
+/dev/cdc-wdm* 0660 radio radio
+/dev/qcqmi* 0660 radio radio
+/dev/cdc-acm* 0660 radio radio
