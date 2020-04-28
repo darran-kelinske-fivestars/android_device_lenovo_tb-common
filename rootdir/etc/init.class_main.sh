@@ -48,6 +48,10 @@ qcrild_status=false
 #    "apq" | "sda" | "qcs" )
 setprop ro.radio.noril no
 start ril-daemon
+start vendor.dataqti
+start vendor.dataadpl
+start vendor.netmgrd
+start vendor.port-bridge
 #    stop vendor.ril-daemon
 #    stop vendor.qcrild
 #    start vendor.ipacm
