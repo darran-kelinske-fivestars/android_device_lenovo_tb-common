@@ -52,6 +52,7 @@ start vendor.dataqti
 start vendor.dataadpl
 start vendor.netmgrd
 start vendor.port-bridge
+start vendor.qmuxd
 #    stop vendor.ril-daemon
 #    stop vendor.qcrild
 #    start vendor.ipacm
