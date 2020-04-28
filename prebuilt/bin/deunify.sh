@@ -15,5 +15,4 @@ rm -rf /system/vendor/firmware/variant
 
 # Remove telephony files for wifi variant
 if [ "$baseband" == "apq" ]; then 
-    rm -rf /system/app/QtiTelephonyService
 fi
