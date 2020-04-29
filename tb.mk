@@ -323,10 +323,10 @@ PRODUCT_COPY_FILES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony
+    telephony-common
 
 PRODUCT_BOOT_JARS += \
-    telephony
+    telephony-common
 
 # USB
 PRODUCT_PACKAGES += \
