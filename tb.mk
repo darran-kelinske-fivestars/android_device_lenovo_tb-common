@@ -325,8 +325,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     telephony-common
 
-PRODUCT_BOOT_JARS += \
-    telephony-common
+#PRODUCT_BOOT_JARS += \
+    #telephony-common
 
 # USB
 PRODUCT_PACKAGES += \
