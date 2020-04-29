@@ -297,7 +297,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    librmnetctl
+    rild
 
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0 \
